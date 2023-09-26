@@ -21,3 +21,5 @@
 - use ''' For multiline comment '''
 
 - use ```_``` for use the previous output.
+
+- getting the type of variable use ```type(var)```.

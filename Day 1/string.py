@@ -17,3 +17,8 @@ print(newname)
 # for getting the length of string len
 
 print(len(newname))
+
+# Variables
+
+num = 10
+id(num) # id is used for the address of variables
