@@ -23,3 +23,10 @@
 - use ```_``` for use the previous output.
 
 - getting the type of variable use ```type(var)```.
+
+# Multiple DP
+- None, Numeric, List, Tuple, Set, string, range, Dictionary
+
+- None is define from null
+
+- Numeric have multiple type like ```int```,```float```,```complex```,```bool```
