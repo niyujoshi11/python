@@ -42,3 +42,12 @@ a != b  # not equal to
 a < 8 and b < 8
 a > 8 and b < 8
 a > 8 and b > 8
+
+# bitwise operators use bits
+# complement(~)
+# and(&)
+# or(|)
+# xor(^)
+# leftshift(<<)
+# rightshift(>>)
+
