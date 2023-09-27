@@ -2,5 +2,6 @@
 # set uses curly brackets
 # in set indexing is not supported
 # set output is unique
+# A set is mutable
 
 s = {11, 22, 33, 44, 55, 66, 77, 88, 99, 00, 11}

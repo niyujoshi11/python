@@ -1,7 +1,7 @@
 # In Python, dictionaries are written with curly brackets { } , 
 # and store key-value pairs. Dictionary keys should be the immutable Python object, 
 # for example, number, string, or tuple. Keys are case sensitive. Duplicate keys are not allowed in the dictionary
-
+# mutable
 data = {0:0, 1:"Nihir", 2:"Zala", 3:"Test"}
 
 # data uses index key

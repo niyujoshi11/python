@@ -1,4 +1,5 @@
 # list uses sqare brackets
+# lists are mutable
 
 nums = [10, 12, 13, 14, 15]
 print(nums)
