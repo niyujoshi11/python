@@ -30,4 +30,3 @@
 - None is defined for null
 
 - Numeric have multiple type like ```int```,```float```,```complex```,```bool```
-- 
