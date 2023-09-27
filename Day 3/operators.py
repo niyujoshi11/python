@@ -62,3 +62,10 @@ bin(13) #output will be 0b1100
 # in bitwise or if you get at least 1 then you will get 1
 
 12|13
+
+# bin(13)
+# '0b1101'
+# bin(12)
+# '0b1100'
+# 12|13
+# 13
