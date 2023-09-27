@@ -69,16 +69,10 @@
 
 # Bitwise Operators
 
-- Bitwise operators are used to compare (binary) numbers:```AND```, ```OR```, ```XOR```, ```NOT```, ```Zero fill left shift```, ```Signed right shift```.
+- Bitwise operators are used to compare (binary) numbers:```AND```, ```OR```, ```NOT```.Bitwise operators work with binary numbers 1 or 0.
 
 - AND: ```&``` : Sets each bit to 1 if both bits are 1
 
 - OR: ```|``` : Sets each bit to 1 if one of two bits is 1
 
-- XOR: ```^``` 	:Sets each bit to 1 if only one of two bits is 1
-
 - NOT: ``` ~ ```: 	Inverts all the bits
-
-- Signed right shift: ```>>```: Shift right by pushing copies of the leftmost bit in from the left, and let the rightmost bits fall off
-
-- Zero fill left  shift: ```<<``` :Shift left by pushing zeros in from the right and let the leftmost bits fall off

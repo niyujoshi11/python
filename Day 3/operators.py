@@ -43,15 +43,22 @@ a < 8 and b < 8
 a > 8 and b < 8
 a > 8 and b > 8
 
-# bitwise operators use bits
-# complement(~)
-# and(&)
-# or(|)
-# xor(^)
-# leftshift(<<)
-# rightshift(>>)
-
 #complement(~)
 ~12 # output will be -13
 
 print(~15) # output will be -13
+
+# Bitwise & (AND)
+
+#in and if both has 1 than you will get 1 otherwise you will get 0
+
+bin(12) #output will be 0b1101
+bin(13) #output will be 0b1100
+
+12 & 13 # you will get out put 12 why the reasult on the bit.
+
+# Bitwise | (OR)
+
+# in bitwise or if you get at least 1 then you will get 1
+
+12|13
