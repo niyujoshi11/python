@@ -4,7 +4,7 @@
 
 - Numeric Types:	```int, float, complex```
 
-- Sequence Types:	```list, tuple, range```
+- Sequence Types:	``` list, tuple, range```
 
 - Mapping Type:	    ```dict```
 
@@ -12,11 +12,11 @@
 
 - Boolean Type:	    ```bool```
 
-- Binary Types:	    ```bytes, bytearray, memoryview```
+- Binary Types:	    ```bytes, byte array, memory view``
 
 - None Type:	    ```NoneType```
 
-- use ```#``` for singline comment
+- use ```#``` for single comment
 
 - use ''' For multiline comment '''
 
@@ -27,6 +27,7 @@
 # Multiple DP
 - None, Numeric, List, Tuple, Set, string, range, Dictionary
 
-- None is define from null
+- None is defined for null
 
 - Numeric have multiple type like ```int```,```float```,```complex```,```bool```
+- 
