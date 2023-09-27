@@ -53,5 +53,18 @@ a > 8 and b > 8
 
 #complement(~)
 ~12 # output will be -13
+
 print(~15) # output will be -13
 
+
+
+
+
+
+
+
+
+
+z = 2
+n = 0
+if(z < n)

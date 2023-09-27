@@ -1,44 +1,51 @@
-# list uses sqare brackets
-# lists are mutable
+# # list uses sqare brackets
+# # lists are mutable
 
-nums = [10, 12, 13, 14, 15]
-print(nums)
+# nums = [10, 12, 13, 14, 15]
+# print(nums)
 
-print(nums[0])
-print(nums[1])
-print(nums[4])
+# print(nums[0])
+# print(nums[1])
+# print(nums[4])
 
-names = ["Nihir", "Zala", "Test"]
-print(names)
+# names = ["Nihir", "Zala", "Test"]
+# print(names)
 
-mix = [nums, names]
-print(mix)
+# mix = [nums, names]
+# print(mix)
 
-append = nums.append(55)
-print(nums)
+# append = nums.append(55)
+# print(nums)
+# append = nums.append(55)
+# print(nums)
 
-insert = nums.insert(3, 66)
-print(nums)
+# insert = nums.insert(3, 66)
+# print(nums)
 
-remove = nums.remove(14)
-print(14)
+# remove = nums.remove(14)
+# print(14)
 
-pop = nums.pop(2)   # it uses from index number
-print(nums)
+# pop = nums.pop(2)   # it uses from index number
+# print(nums)
 
-pop = nums.pop()   # it uses from last index number
-print(nums)
+# pop = nums.pop()   # it uses from last index number
+# print(nums)
 
-del nums[2:5]  # used for this elements
-print(nums)
+# del nums[2:5]  # used for this elements
+# print(nums)
 
-# for add multiple values
-nums.extend([111, 222, 333])
 
-print(nums)
+# # for add multiple values
+# nums.extend([111, 222, 333])
 
-min(nums)
-max(nums)
-sum(nums)
+# print(nums)
+# min(nums)
+# max(nums)
+# sum(nums)
+# nums.sort() # for sorting list
+# # print(varsort)
 
-nums.sort() # for sorting list
+# newnum = [88, 55, 66, 88, 99]
+# nums[-1:7]
+
+# nums.remove

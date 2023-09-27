@@ -5,7 +5,7 @@
 data = {0:0, 1:"Nihir", 2:"Zala", 3:"Test"}
 
 # data uses index key
-data[1]
+data[1:]
 
 data.get(4, "Not got it, Create one")
 
@@ -23,9 +23,26 @@ del data["newadd"]
 
 # Dic in dic
 
-pro = {'js':'atom', 'cs':'vs', 'python':['pycharm','sublime'], 'java':{'jse':'netbeans','jee':'eclips'}}
+pro = {
+    'js':'atom', 
+    'cs':'vs', 
+    'python':[
+        'pycharm','sublime'
+        ], 
+        'java':{
+            'jse':'netbeans',
+            'jee':'eclips'
+            }
+            }
 
 print(pro)
 print(pro["cs"])
 print(pro["python"][1])
 print(pro["python"])
+
+index = [0, 1, 2, 3, 4]
+val = [4, "String", "88", 55]
+
+test_dict = dict(zip(index,val))
+
+items = test_dict.items()

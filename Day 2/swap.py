@@ -1,16 +1,17 @@
 a = 5
 b = 6
 
-temp = a
+tempVar = a
 a = b
-b = temp
+b = tempVar
 
 
 print(a)
 print(b)
 
+a, b = b, a
 
-a,b = b, a
+20, 30 = 30, 20
 
 # second way using xor
 
