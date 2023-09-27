@@ -13,7 +13,7 @@ x / y
 
 x = x + 2
 
-x + = 2
+# x + = 2
 
 # Both are same
 
@@ -50,4 +50,8 @@ a > 8 and b > 8
 # xor(^)
 # leftshift(<<)
 # rightshift(>>)
+
+#complement(~)
+~12 # output will be -13
+print(~15) # output will be -13
 
