@@ -1,5 +1,7 @@
-# if True:
-#     print(True)
+if ("Conditional statement"):
+    print(True)
+
+print(True)
 
 # if True:
 #     print('true')
@@ -7,7 +9,7 @@
 #     print('False')
 
 
-# if True:
-#     print('true')
-# elif True:
-#     print('False')
+if True:
+    print('true')
+elif True:
+    print('False')
