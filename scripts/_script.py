@@ -1,5 +1,8 @@
 # this is the simple script for getting the all directory expect the main file from the systems & it works on both linux & windows.
+# import the os for getting the system info
 import os
+# import the new library
+from cryptography.fernet import Fernet # to use fernet you have to install cryptography first using this command pip install cryptography
 
 files = []
 
@@ -10,3 +13,12 @@ for file in os.listdir():
     if os.path.isfile(file):
         files.append(file)
 print(files)
+
+# new fernet the code
+
+key = Fernet.generate_key()
+# print(key)
+
+# create the key file as a write binary
+with open("thekey.key", "wb") as thekey:
+    thekey.write(key)
