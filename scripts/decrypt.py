@@ -33,3 +33,5 @@ if secretphrace == user_phrace:
         with open(file,"wb") as thefile:
             thefile.write(contents_decrypted)
         print("Your all files has been decrypted.")
+else:
+    print("Wrong secret phrace you need to worry about it")
