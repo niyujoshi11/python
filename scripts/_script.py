@@ -6,5 +6,7 @@ files = []
 for file in os.listdir():
     if file == "_sript.py":
         continue
-    files.append(file)
+    # continue check the if there is a folder & dont want to in list
+    if os.path.isfile(file):
+        files.append(file)
 print(files)
