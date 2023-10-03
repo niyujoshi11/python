@@ -77,8 +77,16 @@
 
 - NOT: ``` ~ ```: 	Inverts all the bits
 
+# venv
+
 - for creating the venv (virtual env) you have to run the command ```python -m venv envname```
 
 - after the install venv you have to activate it so that you can use it.
 
 - for activate it you have to locate the ```activate``` file in your ```envname\Scripts``` just run it as it is like ```envname\Scripts\activate``` you good to go.
+
+# numpy
+
+- for the install numpy you have to activate the ```venv```.
+
+- after this you just have to run the command ```pip install numpy```.
