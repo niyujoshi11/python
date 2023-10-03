@@ -76,3 +76,9 @@
 - OR: ```|``` : Sets each bit to 1 if one of two bits is 1
 
 - NOT: ``` ~ ```: 	Inverts all the bits
+
+- for creating the venv (virtual env) you have to run the command ```python -m venv envname```
+
+- after the install venv you have to activate it so that you can use it.
+
+- for activate it you have to locate the ```activate``` file in your ```envname\Scripts``` just run it as it is like ```envname\Scripts\activate``` you good to go.
