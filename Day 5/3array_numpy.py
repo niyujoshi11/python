@@ -5,6 +5,14 @@
 # in numpy you do not have to worry about the array type like int or float just define
 import numpy as nm
 
-arr = nm.array([[1,2,3], [4,5,6], [7,8,9]])
+arr = nm.array(
+    [
+        [1,2,3], 
+        [4,5,6], 
+        [7,8,9]
+    ]
+        )
 
+# varArr = nm.array(["1",2,3])
 print(arr)
+# print(varArr)
