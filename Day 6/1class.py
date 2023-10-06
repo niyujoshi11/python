@@ -19,6 +19,7 @@ class Laptop:
 lenovo = Computers()
 dell = Laptop()
 
+Computers.config() # do not call like this if it takes parameters
 # print(type(comp1))
 
 # to call the function from the class you have to first call the class then function
