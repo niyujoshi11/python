@@ -1,7 +1,7 @@
 class Bike:
-    wheels = 2 # Class gloabal variable or namespace
+    wheels = 2 # Class variable 
     def __init__(self):
-        self.mil = 10 # initial global variable
+        self.mil = 10 # initial global variable or intance varibale
         self.com = "KTM"
     
 b1 = Bike()
