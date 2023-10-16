@@ -12,4 +12,6 @@ try:
     print(a/b)
 except Exception as e:
     print("Can not work this perform",e)
+finally:
+    print("This will return as it is whether your condtion is true or false or anything this will return")
 print("Process done")
