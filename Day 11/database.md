@@ -29,4 +29,4 @@ CREATE TABLE users (
 
 # for installation to insall mysql connector
 
-- pip install mysql-connector
+- pip install mysql-connector-python
